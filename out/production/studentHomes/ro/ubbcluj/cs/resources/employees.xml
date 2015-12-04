@@ -1,0 +1,20 @@
+<?xml version="1.0" ?><employees>
+	<employee id="1">
+		<property name="surname">Manuela</property>
+		<property name="name">Barbaceanu</property>
+		<property name="pid">1971230204452</property>
+		<property name="job">Camerista</property>
+</employee>
+	<employee id="2">
+		<property name="surname">Speranta</property>
+		<property name="name">Victoria</property>
+		<property name="pid">1221230334452</property>
+		<property name="job">Camerista</property>
+	</employee>
+	<employee id="3">
+		<property name="surname">Sergiu</property>
+		<property name="name">Bal</property>
+		<property name="pid">1721230204452</property>
+		<property name="job">Administrator</property>
+	</employee>
+</employees>

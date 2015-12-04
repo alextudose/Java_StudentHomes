@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><students>
+	<student id="1">
+		<property name="annualGrade">8.5</property>
+		<property name="surname">Fodor</property>
+		<property name="name">Traian</property>
+		<property name="pid">1971230304452</property>
+</student>
+	<student id="2">
+		<property name="annualGrade">9.5</property>
+		<property name="surname">Stefan Alexandru</property>
+		<property name="name">Tudose</property>
+		<property name="pid">1951230304452</property>
+</student>
+	<student id="3">
+		<property name="annualGrade">7.5</property>
+		<property name="surname">Ronaldo</property>
+		<property name="name">Balotescu</property>
+		<property name="pid">1331239904452</property>
+</student></students>

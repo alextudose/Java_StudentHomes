@@ -1,0 +1,20 @@
+<?xml version="1.0" ?><studenthomes>
+	<studenthome id="1">
+		<property name="roomSize">3</property>
+		<property name="name">Eco 2</property>
+		<property name="numberOfRooms">200</property>
+		<property name="tax">170.0</property>
+</studenthome>
+	<studenthome id="2">
+		<property name="roomSize">3</property>
+		<property name="name">Eco 1</property>
+		<property name="numberOfRooms">250</property>
+		<property name="tax">170.0</property>
+	</studenthome>
+	<studenthome id="3">
+		<property name="roomSize">5</property>
+		<property name="name">C16</property>
+		<property name="numberOfRooms">300</property>
+		<property name="tax">100.0</property>
+	</studenthome>
+</studenthomes>

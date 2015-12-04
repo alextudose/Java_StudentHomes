@@ -1,0 +1,19 @@
+<beans>
+    <bean id="appUI" class="ro.ubbcluj.cs.ui.UserInterface">
+        <property name="appManager" ref="appManager"/>
+    </bean>
+    <bean id="appManager" class="ro.ubbcluj.cs.service.AppManager">
+        <property name="studentHomeRepository" ref="studentHomeRepository"/>
+        <property name="employeeRepository" ref="employeeRepository"/>
+        <property name="studentRepository" ref="studentRepository"/>
+        <property name="studentHomeValidator" ref="studentHomeValidator"/>
+        <property name="employeeValidator" ref="employeeValidator"/>
+        <property name="studentValidator" ref="studentValidator"/>
+    </bean>
+    <bean id="studentHomeRepository" class="ro.ubbcluj.cs.repository.StudentHomeRepository"/>
+    <bean id="employeeRepository" class="ro.ubbcluj.cs.repository.EmployeeRepository"/>
+    <bean id="studentRepository" class="ro.ubbcluj.cs.repository.StudentRepository"/>
+    <bean id="studentHomeValidator" class="ro.ubbcluj.cs.service.StudentHomeValidator"/>
+    <bean id="employeeValidator" class="ro.ubbcluj.cs.service.PersonValidator"/>
+    <bean id="studentValidator" class="ro.ubbcluj.cs.service.StudentValidator"/>
+</beans>
